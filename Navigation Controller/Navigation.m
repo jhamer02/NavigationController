@@ -6,13 +6,13 @@
 //  Copyright © 2016 jjpe. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Navigation.h"
 
-@interface ViewController ()
+@interface Navigation ()
 
 @end
 
-@implementation ViewController
+@implementation Navigation
 
 - (void)viewDidLoad {
     [super viewDidLoad];

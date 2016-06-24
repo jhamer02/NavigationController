@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4E4159E1D1DF9300022062B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E4159D1D1DF9300022062B /* main.m */; };
 		E4E415A11D1DF9300022062B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E415A01D1DF9300022062B /* AppDelegate.m */; };
-		E4E415A41D1DF9300022062B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E415A31D1DF9300022062B /* ViewController.m */; };
+		E4E415A41D1DF9300022062B /* Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E415A31D1DF9300022062B /* Navigation.m */; };
 		E4E415A71D1DF9300022062B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E415A51D1DF9300022062B /* Main.storyboard */; };
 		E4E415AA1D1DF9300022062B /* Navigation_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4E415A81D1DF9300022062B /* Navigation_Controller.xcdatamodeld */; };
 		E4E415AC1D1DF9300022062B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E415AB1D1DF9300022062B /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		E4E4159D1D1DF9300022062B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4E4159F1D1DF9300022062B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4E415A01D1DF9300022062B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4E415A21D1DF9300022062B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4E415A31D1DF9300022062B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4E415A21D1DF9300022062B /* Navigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navigation.h; sourceTree = "<group>"; };
+		E4E415A31D1DF9300022062B /* Navigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navigation.m; sourceTree = "<group>"; };
 		E4E415A61D1DF9300022062B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4E415A91D1DF9300022062B /* Navigation_Controller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation_Controller.xcdatamodel; sourceTree = "<group>"; };
 		E4E415AB1D1DF9300022062B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		E4E4159B1D1DF9300022062B /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E4E4159F1D1DF9300022062B /* AppDelegate.h */,
-				E4E415A01D1DF9300022062B /* AppDelegate.m */,
-				E4E415A21D1DF9300022062B /* ViewController.h */,
-				E4E415A31D1DF9300022062B /* ViewController.m */,
+				E4E415B71D1DF9830022062B /* Main */,
+				E4E415B61D1DF97B0022062B /* Controllers */,
 				E4E415A51D1DF9300022062B /* Main.storyboard */,
 				E4E415AB1D1DF9300022062B /* Assets.xcassets */,
 				E4E415AD1D1DF9300022062B /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				E4E4159D1D1DF9300022062B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4E415B61D1DF97B0022062B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4E415A21D1DF9300022062B /* Navigation.h */,
+				E4E415A31D1DF9300022062B /* Navigation.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E4E415B71D1DF9830022062B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4159F1D1DF9300022062B /* AppDelegate.h */,
+				E4E415A01D1DF9300022062B /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E415A41D1DF9300022062B /* ViewController.m in Sources */,
+				E4E415A41D1DF9300022062B /* Navigation.m in Sources */,
 				E4E415AA1D1DF9300022062B /* Navigation_Controller.xcdatamodeld in Sources */,
 				E4E415A11D1DF9300022062B /* AppDelegate.m in Sources */,
 				E4E4159E1D1DF9300022062B /* main.m in Sources */,
